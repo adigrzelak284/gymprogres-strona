@@ -1,0 +1,11 @@
+GYMPROGRES — DO SPRAWDZENIA PRZED PUBLIKACJĄ
+
+[ ] support@gymprogres.pl odbiera wiadomości
+[ ] nazwa dewelopera i dane kontaktowe są poprawne
+[ ] polityka opisuje wszystkie dane faktycznie zbierane przez aplikację i biblioteki
+[ ] mechanizm zgody na dane mogące dotyczyć zdrowia został zweryfikowany
+[ ] usuwanie konta działa w aktualnej wersji Android i iOS
+[ ] strona usuwania konta jest publicznie dostępna bez logowania
+[ ] adresy Privacy Policy / Support / Account Deletion są wpisane w konsolach sklepów
+[ ] przed subskrypcjami zaktualizowano regulamin, politykę i informacje o płatnościach
+[ ] dokumenty prawne zostały sprawdzone przed premierą produkcyjną
