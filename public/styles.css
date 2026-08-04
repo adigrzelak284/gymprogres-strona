@@ -140,3 +140,9 @@ code { color: #bae6fd; background: rgba(56,189,248,.08); padding: .12em .35em; b
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; }
 }
+
+/* V2: przyciski w karcie kontaktowej */
+.contact-card > .actions { margin-top: 0; justify-content: flex-end; }
+@media (max-width: 720px) {
+  .contact-card > .actions { justify-content: flex-start; }
+}

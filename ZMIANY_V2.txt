@@ -1,0 +1,26 @@
+GYMPROGRES STRONA V2 — ZMIANY
+Data: 4 sierpnia 2026 r.
+
+1. Strona główna
+- nowy status: Android beta, iOS TestFlight, wersja webowa,
+- bezpośredni link do app.gymprogres.pl,
+- nowe funkcje: wiadomości, zdjęcia postępu, raporty tygodniowe, powiadomienia i wznowienie treningu.
+
+2. Polityka prywatności 1.1 beta
+- wiadomości i status odczytania,
+- zdjęcia, załączniki i raporty,
+- tokeny powiadomień push,
+- uprawnienia aparatu, biblioteki zdjęć i powiadomień,
+- Supabase Storage, Firebase i GitHub Pages,
+- rozszerzony zakres dostępu trenera i usuwania danych.
+
+3. Usuwanie konta
+- dodano wiadomości, zdjęcia, raporty, załączniki i tokeny push do listy usuwanych danych.
+
+4. Regulamin 1.1 beta
+- dodano aktualne funkcje i zasady dotyczące treści użytkownika.
+
+5. Pomoc
+- link do aplikacji webowej,
+- status platform,
+- FAQ dotyczące powiadomień i zgłaszania błędów.

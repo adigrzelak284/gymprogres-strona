@@ -1,6 +1,17 @@
-# GymProgres — strona informacyjna V1
+# GymProgres — strona informacyjna V2
 
-Gotowa statyczna strona przeznaczona do wdrożenia pod `https://gymprogres.pl`.
+Zaktualizowana statyczna strona przeznaczona do wdrożenia pod `https://gymprogres.pl`.
+
+## Najważniejsze zmiany V2 — 4 sierpnia 2026 r.
+
+- zaktualizowany status Android / iOS TestFlight / aplikacja webowa,
+- dodany przycisk do `https://app.gymprogres.pl`,
+- rozszerzony opis funkcji o wiadomości, zdjęcia postępu, raporty tygodniowe, powiadomienia i wznawianie treningu,
+- zaktualizowana polityka prywatności do wersji `1.1 beta`,
+- dodane informacje o wiadomościach, zdjęciach, raportach, tokenach push i Firebase,
+- rozszerzona instrukcja usuwania konta i danych,
+- zaktualizowany regulamin wersji beta,
+- zaktualizowana sekcja pomocy i FAQ.
 
 ## Zawartość
 
@@ -14,28 +25,30 @@ Gotowa statyczna strona przeznaczona do wdrożenia pod `https://gymprogres.pl`.
 
 ## Przed publikacją
 
-1. Wyślij testową wiadomość na `support@gymprogres.pl` i potwierdź, że przekierowanie lub skrzynka działa.
+1. Wyślij testową wiadomość na `support@gymprogres.pl` i potwierdź, że odbieranie oraz wysyłanie działa.
 2. Sprawdź dane administratora w polityce prywatności i regulaminie.
-3. Zweryfikuj opis faktycznie zbieranych danych oraz usług zewnętrznych.
-4. Przed płatnymi subskrypcjami zaktualizuj regulamin, politykę prywatności i informacje konsumenckie.
-5. Przed produkcyjną publikacją rozważ przegląd dokumentów przez prawnika, zwłaszcza w zakresie danych dotyczących zdrowia i subskrypcji.
+3. Zweryfikuj, czy wszystkie opisane funkcje i dostawcy odpowiadają aktualnej wersji produkcyjnej.
+4. Otwórz `https://app.gymprogres.pl` w trybie incognito i potwierdź działanie.
+5. Sprawdź wszystkie linki z katalogu `public`.
+6. Przed płatnymi subskrypcjami zaktualizuj regulamin, politykę prywatności i informacje konsumenckie.
+7. Przed premierą produkcyjną rozważ przegląd dokumentów przez prawnika, zwłaszcza w zakresie danych dotyczących zdrowia, zdjęć i subskrypcji.
 
 ## Wdrożenie na Render
 
-1. Utwórz nowe repozytorium GitHub, np. `gymprogres-strona`.
-2. Wgraj całą zawartość tego folderu, łącznie z `render.yaml`.
-3. W Render wybierz **New > Blueprint** i wskaż repozytorium.
-4. Render utworzy statyczną stronę z katalogu `public`.
-5. Najpierw sprawdź adres `*.onrender.com`.
-6. W ustawieniach strony wybierz **Custom Domains** i dodaj:
+1. Wgraj zawartość tego folderu do repozytorium strony.
+2. W Render wybierz istniejącą usługę strony albo **New > Blueprint** i wskaż repozytorium.
+3. Render publikuje katalog `public` zgodnie z `render.yaml`.
+4. Po wdrożeniu sprawdź adres techniczny `*.onrender.com` oraz domeny:
    - `gymprogres.pl`
    - `www.gymprogres.pl`
-7. W panelu DNS OVH wpisz rekordy dokładnie pokazane przez Render. Nie zmieniaj rekordu `api.gymprogres.pl`.
-8. Po weryfikacji domeny Render automatycznie wystawi HTTPS.
+5. Nie zmieniaj rekordu `api.gymprogres.pl`.
+6. Sprawdź HTTPS i wykonaj odświeżenie bez pamięci podręcznej.
 
-## Adresy do sklepów
+## Adresy do konsol sklepów
 
-- Polityka prywatności: `https://gymprogres.pl/polityka-prywatnosci.html`
-- Pomoc: `https://gymprogres.pl/pomoc.html`
-- Usuwanie konta: `https://gymprogres.pl/usun-konto.html`
+- Marketing URL: `https://gymprogres.pl`
+- Privacy Policy URL: `https://gymprogres.pl/polityka-prywatnosci.html`
+- Support URL: `https://gymprogres.pl/pomoc.html`
+- Account Deletion URL: `https://gymprogres.pl/usun-konto.html`
 - Regulamin: `https://gymprogres.pl/regulamin.html`
+- Aplikacja webowa: `https://app.gymprogres.pl`
