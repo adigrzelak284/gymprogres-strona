@@ -1,0 +1,14 @@
+GymProgres Strona V3 - 5 sierpnia 2026 r.
+
+1. Polityka prywatności 1.2 beta:
+- dodano dobrowolny odczyt kroków z Apple Zdrowie,
+- dodano dobrowolny odczyt kalorii, białka, tłuszczów i węglowodanów,
+- wyjaśniono pośrednią ścieżkę Fitatu -> Apple Zdrowie -> GymProgres,
+- wyjaśniono, że GymProgres nie otrzymuje loginu ani hasła Fitatu,
+- wyjaśniono zapis danych dopiero po zatwierdzeniu formularza,
+- opisano dostęp trenera wyłącznie do danych zapisanych w GymProgres.
+
+2. Pomoc:
+- instrukcja ponowienia rejestracji powiadomień push,
+- instrukcja pobierania kroków z Apple Zdrowie,
+- instrukcja pobierania diety z Fitatu przez Apple Zdrowie.
