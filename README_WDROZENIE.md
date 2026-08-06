@@ -1,48 +1,33 @@
-# GymProgres — strona informacyjna V2
+# GymProgres — strona informacyjna V4
 
-Zaktualizowana statyczna strona przeznaczona do wdrożenia pod `https://gymprogres.pl`.
+Aktualna statyczna strona przeznaczona do wdrożenia pod `https://gymprogres.pl`.
 
-## Najważniejsze zmiany V2 — 4 sierpnia 2026 r.
+## Najważniejsze zmiany V4 — 6 sierpnia 2026 r.
 
-- zaktualizowany status Android / iOS TestFlight / aplikacja webowa,
-- dodany przycisk do `https://app.gymprogres.pl`,
-- rozszerzony opis funkcji o wiadomości, zdjęcia postępu, raporty tygodniowe, powiadomienia i wznawianie treningu,
-- zaktualizowana polityka prywatności do wersji `1.1 beta`,
-- dodane informacje o wiadomościach, zdjęciach, raportach, tokenach push i Firebase,
-- rozszerzona instrukcja usuwania konta i danych,
-- zaktualizowany regulamin wersji beta,
-- zaktualizowana sekcja pomocy i FAQ.
+- aktualny status: zamknięte testy Android, testy iOS przez TestFlight i działająca aplikacja webowa,
+- potwierdzone powiadomienia push na Androidzie, iPhonie i w wersji webowej,
+- opis pobierania kroków oraz kalorii i makroskładników na Androidzie i iPhonie,
+- platformowo neutralny opis danych udostępnianych przez Fitatu lub inne zgodne źródło,
+- pełniejszy opis funkcji: import planów z Excela, biblioteka ćwiczeń, rekordy, szablony i kopiowanie planów, wiadomości, zdjęcia oraz raporty,
+- polityka prywatności 1.3 beta,
+- regulamin 1.2 beta,
+- instrukcja usuwania konta 1.2 beta,
+- zaktualizowana pomoc i sitemap.xml.
 
-## Zawartość
+## Wdrożenie
 
-- strona główna,
-- pomoc i kontakt,
-- polityka prywatności,
-- publiczna instrukcja usuwania konta,
-- regulamin wersji beta,
-- mapa strony, robots.txt, 404,
-- konfiguracja Render Blueprint.
+W repozytorium strony zastąp dotychczasową zawartość folderu `public` zawartością folderu `public` z tej paczki, a następnie wykonaj standardowe wdrożenie na Render.
 
-## Przed publikacją
+Po wdrożeniu sprawdź:
 
-1. Wyślij testową wiadomość na `support@gymprogres.pl` i potwierdź, że odbieranie oraz wysyłanie działa.
-2. Sprawdź dane administratora w polityce prywatności i regulaminie.
-3. Zweryfikuj, czy wszystkie opisane funkcje i dostawcy odpowiadają aktualnej wersji produkcyjnej.
-4. Otwórz `https://app.gymprogres.pl` w trybie incognito i potwierdź działanie.
-5. Sprawdź wszystkie linki z katalogu `public`.
-6. Przed płatnymi subskrypcjami zaktualizuj regulamin, politykę prywatności i informacje konsumenckie.
-7. Przed premierą produkcyjną rozważ przegląd dokumentów przez prawnika, zwłaszcza w zakresie danych dotyczących zdrowia, zdjęć i subskrypcji.
+- `https://gymprogres.pl`
+- `https://gymprogres.pl/pomoc.html`
+- `https://gymprogres.pl/polityka-prywatnosci.html`
+- `https://gymprogres.pl/usun-konto.html`
+- `https://gymprogres.pl/regulamin.html`
+- `https://app.gymprogres.pl`
 
-## Wdrożenie na Render
-
-1. Wgraj zawartość tego folderu do repozytorium strony.
-2. W Render wybierz istniejącą usługę strony albo **New > Blueprint** i wskaż repozytorium.
-3. Render publikuje katalog `public` zgodnie z `render.yaml`.
-4. Po wdrożeniu sprawdź adres techniczny `*.onrender.com` oraz domeny:
-   - `gymprogres.pl`
-   - `www.gymprogres.pl`
-5. Nie zmieniaj rekordu `api.gymprogres.pl`.
-6. Sprawdź HTTPS i wykonaj odświeżenie bez pamięci podręcznej.
+Nie zmieniaj rekordu `api.gymprogres.pl`.
 
 ## Adresy do konsol sklepów
 
@@ -52,3 +37,5 @@ Zaktualizowana statyczna strona przeznaczona do wdrożenia pod `https://gymprogr
 - Account Deletion URL: `https://gymprogres.pl/usun-konto.html`
 - Regulamin: `https://gymprogres.pl/regulamin.html`
 - Aplikacja webowa: `https://app.gymprogres.pl`
+
+Przed uruchomieniem płatnych subskrypcji dokumenty prawne wymagają ponownej aktualizacji i profesjonalnej weryfikacji.

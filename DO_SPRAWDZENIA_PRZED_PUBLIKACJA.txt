@@ -1,16 +1,18 @@
-GYMPROGRES — DO SPRAWDZENIA PRZED PUBLIKACJĄ V2
-Aktualizacja: 4 sierpnia 2026 r.
+GYMPROGRES — DO SPRAWDZENIA PRZED PUBLIKACJĄ V4
+Aktualizacja: 6 sierpnia 2026 r.
 
 [ ] support@gymprogres.pl odbiera wiadomości i pozwala na odpowiedź
 [ ] nazwa dewelopera i dane kontaktowe są poprawne
 [ ] https://app.gymprogres.pl działa bez logowania do hostingu
+[ ] strona główna poprawnie opisuje Android, iOS TestFlight i wersję webową
+[ ] powiadomienia push działają na Androidzie, iPhonie i webie
+[ ] pobieranie kroków oraz kalorii i makroskładników działa na Androidzie i iPhonie
+[ ] opisy zgód systemowych odpowiadają rzeczywistym ekranom aplikacji
 [ ] polityka opisuje wszystkie dane faktycznie zbierane przez aplikację i biblioteki
 [ ] Supabase, Render, Firebase, GitHub Pages, OVHcloud, Google i Apple są opisane zgodnie z faktycznym użyciem
-[ ] mechanizm zgody na dane mogące dotyczyć zdrowia został zweryfikowany
-[ ] opisy dostępu do aparatu i zdjęć w aplikacji iOS odpowiadają rzeczywistym funkcjom
 [ ] usuwanie konta działa w aktualnej wersji Android, iOS i web
 [ ] strona usuwania konta jest publicznie dostępna bez logowania
-[ ] usunięcie obejmuje wiadomości, załączniki, zdjęcia postępu, raporty i tokeny push
+[ ] usunięcie obejmuje wiadomości, załączniki, zdjęcia postępu, raporty, zapisane dane aktywności i diety oraz tokeny push
 [ ] adresy Marketing / Privacy Policy / Support / Account Deletion są wpisane w konsolach sklepów
 [ ] na stronie nie ma przycisków sugerujących publiczną dostępność w sklepach przed premierą
 [ ] wszystkie linki i widok mobilny zostały sprawdzone po wdrożeniu

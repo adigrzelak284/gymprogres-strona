@@ -1,0 +1,30 @@
+GymProgres Strona V4 — 6 sierpnia 2026 r.
+
+1. Strona główna
+- aktualny status Android / TestFlight / web,
+- pełniejsza lista aktualnych funkcji,
+- potwierdzone push na Androidzie, iPhonie i webie,
+- pobieranie kroków oraz kalorii i makroskładników na Androidzie i iPhonie.
+
+2. Polityka prywatności 1.3 beta
+- rozszerzenie danych zdrowotnych na Android i iOS,
+- neutralny opis systemowych źródeł zdrowia i aktywności,
+- wyjaśnienie integracji pośredniej z Fitatu bez przekazywania loginu i hasła,
+- doprecyzowanie retencji i dostępu trenera.
+
+3. Pomoc
+- aktualny status platform,
+- instrukcje dla kroków i danych diety na obu systemach,
+- informacja o działających powiadomieniach,
+- wskazówki dotyczące importu planu z Excela.
+
+4. Regulamin i usuwanie konta
+- aktualizacja dat i wersji,
+- opis funkcji zdrowotnych na obu platformach,
+- zakres usuwania zapisanych danych aktywności i diety,
+- rozróżnienie danych GymProgres od danych zewnętrznych aplikacji.
+
+5. Techniczne
+- zaktualizowany sitemap.xml,
+- usunięty nieaktualny plik dotyczący wyłącznie buildu 61,
+- zaktualizowana instrukcja wdrożenia i lista kontrolna.
