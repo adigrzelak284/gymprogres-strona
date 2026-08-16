@@ -1,20 +1,34 @@
-GYMPROGRES — DO SPRAWDZENIA PRZED PUBLIKACJĄ V4
-Aktualizacja: 6 sierpnia 2026 r.
+GYMPROGRES — FINALNA CHECKLISTA PUBLIKACJI
+Aktualizacja: 16 sierpnia 2026 r.
 
+GOTOWE W REPOZYTORIUM / NA STRONIE
+[x] strona główna nie używa już komunikatów „beta” ani „TestFlight” jako docelowego opisu produktu
+[x] strona opisuje Android, iOS i Web
+[x] aktualny cennik i limity planów są pokazane na stronie
+[x] opisano jednorazowy 21-dniowy trial i limit 1 podopiecznego w trialu trenera
+[x] opisano, że rejestracja i zakup subskrypcji odbywają się wyłącznie w aplikacji mobilnej
+[x] wersja Web jest opisana jako logowanie i korzystanie z istniejącego konta
+[x] regulamin ma wersję produkcyjną i opisuje subskrypcje, anulowanie, promocje oraz warunki sklepów
+[x] polityka prywatności ma wersję produkcyjną i opisuje dane subskrypcji oraz RevenueCat
+[x] strona usuwania konta informuje, że usunięcie konta nie anuluje automatycznie subskrypcji sklepowej
+[x] pomoc zawiera FAQ dotyczące trialu, zakupu, anulowania i przywracania zakupów
+[x] sitemap.xml ma datę aktualizacji 2026-08-16
+[x] przyciski sklepów są bezpiecznie wyłączone, dopóki listing nie jest publiczny
+[x] docelowy Google Play URL jest przygotowany dla pakietu pl.gymprogres.app
+[x] konfiguracja linków sklepów jest oddzielona w public/launch-config.js
+
+DO WYKONANIA W MOMENCIE PUBLIKACJI LISTINGÓW
+[ ] gdy Google Play będzie publiczny: ustaw googlePlay.live = true w public/launch-config.js
+[ ] skopiuj publiczny adres App Store z App Store Connect / App Store i wpisz go do appStore.url
+[ ] gdy App Store będzie publiczny: ustaw appStore.live = true
+[ ] sprawdź oba przyciski pobierania na telefonie i komputerze
+[ ] sprawdź publicznie: /, /pomoc.html, /polityka-prywatnosci.html, /regulamin.html, /usun-konto.html
+[ ] sprawdź app.gymprogres.pl na koncie użytkownika, trenera i administratora
+[ ] wykonaj produkcyjny test zakupu/przywrócenia planu po publikacji sklepów
+[ ] dopiero po finalnym teście płatności zdecyduj o włączeniu pełnego wymuszania subskrypcji
+
+ZEWNĘTRZNE DO POTWIERDZENIA
 [ ] support@gymprogres.pl odbiera wiadomości i pozwala na odpowiedź
-[ ] nazwa dewelopera i dane kontaktowe są poprawne
-[ ] https://app.gymprogres.pl działa bez logowania do hostingu
-[ ] strona główna poprawnie opisuje Android, iOS TestFlight i wersję webową
-[ ] powiadomienia push działają na Androidzie, iPhonie i webie
-[ ] pobieranie kroków oraz kalorii i makroskładników działa na Androidzie i iPhonie
-[ ] opisy zgód systemowych odpowiadają rzeczywistym ekranom aplikacji
-[ ] polityka opisuje wszystkie dane faktycznie zbierane przez aplikację i biblioteki
-[ ] Supabase, Render, Firebase, GitHub Pages, OVHcloud, Google i Apple są opisane zgodnie z faktycznym użyciem
-[ ] usuwanie konta działa w aktualnej wersji Android, iOS i web
-[ ] strona usuwania konta jest publicznie dostępna bez logowania
-[ ] usunięcie obejmuje wiadomości, załączniki, zdjęcia postępu, raporty, zapisane dane aktywności i diety oraz tokeny push
-[ ] adresy Marketing / Privacy Policy / Support / Account Deletion są wpisane w konsolach sklepów
-[ ] na stronie nie ma przycisków sugerujących publiczną dostępność w sklepach przed premierą
-[ ] wszystkie linki i widok mobilny zostały sprawdzone po wdrożeniu
-[ ] przed subskrypcjami zaktualizowano regulamin, politykę i informacje o płatnościach
-[ ] dokumenty prawne zostały sprawdzone przed premierą produkcyjną
+[ ] dane kontaktowe i URL-e Marketing / Privacy / Support / Account Deletion są poprawne w obu konsolach sklepów
+[ ] finalne opisy i zrzuty ekranów w Google Play i App Store odpowiadają aktualnej aplikacji
+[ ] dokumenty prawne zostały dodatkowo sprawdzone pod kątem działalności i obowiązków konsumenckich przed rozpoczęciem sprzedaży produkcyjnej
