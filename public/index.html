@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GymProgres — dziennik treningowy dla ćwiczących i trenerów</title>
-  <meta name="description" content="GymProgres łączy plany treningowe, historię, raporty, wiadomości, zdjęcia postępu, powiadomienia oraz pobieranie kroków i danych diety na Androidzie i iPhonie.">
+  <meta name="description" content="GymProgres łączy plany treningowe, historię, raporty, wiadomości, zdjęcia postępu, powiadomienia oraz dane aktywności i diety na Androidzie, iPhonie i w przeglądarce.">
   <meta name="theme-color" content="#050914">
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
   <link rel="canonical" href="https://gymprogres.pl/">
@@ -16,20 +16,20 @@
 </head>
 <body>
 <a class="skip-link" href="#main">Przejdź do treści</a>
-<header class="site-header"><nav class="nav container" aria-label="Główna nawigacja"><a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Gym<span>Progres</span></span></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button><div class="nav-links" id="nav-links"><a aria-current="page" href="index.html">Start</a><a href="https://app.gymprogres.pl" target="_blank" rel="noopener">Aplikacja webowa</a><a href="pomoc.html">Pomoc</a><a href="polityka-prywatnosci.html">Prywatność</a><a href="usun-konto.html">Usuń konto</a><a href="regulamin.html">Regulamin</a></div></nav></header>
+<header class="site-header"><nav class="nav container" aria-label="Główna nawigacja"><a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Gym<span>Progres</span></span></a><button class="menu-button" type="button" aria-expanded="false" aria-controls="nav-links">Menu</button><div class="nav-links" id="nav-links"><a aria-current="page" href="index.html">Start</a><a href="https://app.gymprogres.pl" target="_blank" rel="noopener">Aplikacja webowa</a><a href="#cennik">Cennik</a><a href="pomoc.html">Pomoc</a><a href="polityka-prywatnosci.html">Prywatność</a><a href="usun-konto.html">Usuń konto</a><a href="regulamin.html">Regulamin</a></div></nav></header>
 <main id="main">
   <section class="hero">
     <div class="container hero-grid">
       <div>
-        <div class="eyebrow"><span class="dot"></span> V34 • Android beta • iOS TestFlight • wersja webowa</div>
+        <div class="eyebrow"><span class="dot"></span> Android • iOS • Web</div>
         <h1><span class="gradient-text">Twój trening.</span><br>Twój plan. Twój progres.</h1>
         <p class="lead">GymProgres łączy planowanie i realizację treningów, analizę postępów, dane aktywności i diety oraz współpracę trener–podopieczny w jednej przejrzystej aplikacji.</p>
-        <div class="actions">
-          <a class="button button-primary" href="https://app.gymprogres.pl" target="_blank" rel="noopener">Otwórz aplikację webową</a>
-          <a class="button button-secondary" href="#mozliwosci">Poznaj możliwości</a>
-          <a class="button button-secondary" href="#cennik">Planowane pakiety</a>
-          <a class="button button-secondary" href="pomoc.html">Pomoc i kontakt</a>
+        <div class="actions store-actions">
+          <a class="button button-primary" href="https://app.gymprogres.pl" target="_blank" rel="noopener">Zaloguj się w Web</a>
+          <a class="button button-secondary store-link" data-store="googlePlay" href="#" aria-disabled="true">Google Play — publikacja w toku</a>
+          <a class="button button-secondary store-link" data-store="appStore" href="#" aria-disabled="true">App Store — publikacja w toku</a>
         </div>
+        <p class="launch-note" data-launch-note>Wersje mobilne są przygotowane do oficjalnej dystrybucji. Linki sklepowe zostaną aktywowane po opublikowaniu listingów.</p>
       </div>
       <div class="hero-card" aria-label="Podgląd marki GymProgres">
         <img class="hero-logo" src="assets/logo.svg" alt="Logo GymProgres">
@@ -39,6 +39,14 @@
           <div class="mini-stat"><strong>Progres</strong><span>raporty i zdjęcia</span></div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <section class="section-tight">
+    <div class="container launch-grid">
+      <article class="card"><div class="icon">1</div><h3>Zainstaluj aplikację mobilną</h3><p>Po publikacji pobierz GymProgres z Google Play lub App Store. Rejestracja nowych kont odbywa się w aplikacji mobilnej.</p></article>
+      <article class="card"><div class="icon">21</div><h3>Skorzystaj z 21 dni trialu</h3><p>Nowe konto może otrzymać jednorazowy 21-dniowy okres próbny. Konto trenera w trialu ma limit 1 aktywnego podopiecznego.</p></article>
+      <article class="card"><div class="icon">↗</div><h3>Korzystaj także w Web</h3><p>Po utworzeniu konta możesz logować się przez app.gymprogres.pl. Wersja webowa nie służy do rejestracji ani zakupu subskrypcji.</p></article>
     </div>
   </section>
 
@@ -57,11 +65,11 @@
         <article class="card"><div class="icon">✉</div><h3>Prywatne wiadomości</h3><p>Rozmowy trener–podopieczny, zdjęcia, status przeczytania, licznik nieodczytanych oraz kontekst treningu lub raportu.</p></article>
         <article class="card"><div class="icon">▣</div><h3>Zdjęcia i raporty postępu</h3><p>Zdjęcia postępu, pełnoekranowy podgląd, porównania, wykresy i raporty tygodniowe.</p></article>
         <article class="card"><div class="icon">◎</div><h3>Aktywności i pomiary</h3><p>Cardio, interwały, kroki, obwody ciała i pozostałe pomiary uporządkowane chronologicznie.</p></article>
-        <article class="card"><div class="icon">♥</div><h3>Kroki i dane diety</h3><p>Po udzieleniu zgody aplikacja może pobierać kroki oraz kalorie, białko, tłuszcze i węglowodany na Androidzie i iPhonie. Android korzysta z Health Connect, a iOS z Apple Health.</p></article>
+        <article class="card"><div class="icon">♥</div><h3>Kroki i dane diety</h3><p>Po udzieleniu zgody aplikacja może pobierać kroki oraz kalorie, białko, tłuszcze i węglowodany. Android korzysta z Health Connect, a iOS z Apple Health.</p></article>
         <article class="card"><div class="icon">＋</div><h3>Dieta i suplementy</h3><p>Dziennik kalorii i makroskładników, tryb dnia treningowego lub nietreningowego oraz historia suplementacji.</p></article>
-        <article class="card"><div class="icon">●</div><h3>Powiadomienia push</h3><p>Powiadomienia działają na Androidzie, iPhonie i w wersji webowej, między innymi dla nowych wiadomości.</p></article>
+        <article class="card"><div class="icon">●</div><h3>Powiadomienia push</h3><p>Powiadomienia są obsługiwane na Androidzie, iPhonie i w wersji webowej, między innymi dla nowych wiadomości.</p></article>
         <article class="card"><div class="icon">◉</div><h3>Komentarze i prywatność</h3><p>Komentarze do ćwiczeń mogą pozostać prywatne albo zostać udostępnione aktualnemu trenerowi.</p></article>
-        <article class="card"><div class="icon">⚡</div><h3>V34 Performance</h3><p>Szybsze przełączanie głównych zakładek, ograniczenie zbędnych zapytań, wydajniejsze ładowanie historii treningu i kompresja większych odpowiedzi API.</p></article>
+        <article class="card"><div class="icon">⚡</div><h3>Wydajność V34</h3><p>Szybsze przełączanie głównych zakładek, ograniczenie zbędnych zapytań, wydajniejsze ładowanie historii treningu i kompresja większych odpowiedzi API.</p></article>
       </div>
     </div>
   </section>
@@ -69,38 +77,42 @@
   <section class="section" id="cennik">
     <div class="container">
       <div class="section-head">
-        <h2>Planowane pakiety GymProgres</h2>
-        <p>To aktualny katalog przygotowany do uruchomienia sprzedaży. Płatne subskrypcje nie są jeszcze aktywne w Google Play ani App Store.</p>
+        <h2>Pakiety GymProgres</h2>
+        <p>Subskrypcje są miesięczne lub roczne i odnawiają się zgodnie z zasadami sklepu, w którym dokonano zakupu. Dokładna cena jest zawsze wyświetlana przed potwierdzeniem płatności.</p>
       </div>
       <div class="grid-3">
         <article class="card"><div class="icon">P</div><h3>Personal Pro</h3><p><strong>5,99 zł / miesiąc</strong><br>59,90 zł / rok</p><p>Dla osoby ćwiczącej samodzielnie lub korzystającej z opieki trenera.</p></article>
         <article class="card"><div class="icon">5</div><h3>Trener Start</h3><p><strong>25,99 zł / miesiąc</strong><br>259,90 zł / rok</p><p>Do 5 aktywnych podopiecznych.</p></article>
         <article class="card"><div class="icon">15</div><h3>Trener Pro</h3><p><strong>49,99 zł / miesiąc</strong><br>499,90 zł / rok</p><p>Do 15 aktywnych podopiecznych.</p></article>
-        <article class="card"><div class="icon">30</div><h3>Trener Pro+</h3><p><strong>89,99 zł / miesiąc</strong><br>899,90 zł / rok</p><p>Do 30 aktywnych podopiecznych.</p></article>
-        <article class="card"><div class="icon">50</div><h3>Trener Studio</h3><p><strong>119,99 zł / miesiąc</strong><br>1199,90 zł / rok</p><p>Do 50 aktywnych podopiecznych.</p></article>
+        <article class="card"><div class="icon">30</div><h3>Trener Pro+</h3><p><strong>89,99 zł / miesiąc</strong><br>899,90–899,99 zł / rok</p><p>Do 30 aktywnych podopiecznych.</p></article>
+        <article class="card"><div class="icon">50</div><h3>Trener Studio</h3><p><strong>119,99 zł / miesiąc</strong><br>1199,90–1199,99 zł / rok</p><p>Do 50 aktywnych podopiecznych.</p></article>
       </div>
-      <p class="small">Zakup i uruchomienie płatnej subskrypcji będą obsługiwane przez aplikacje mobilne. Wersja webowa służy do logowania i korzystania z konta.</p>
+      <div class="pricing-note">
+        <strong>21 dni na start.</strong> Jednorazowy okres próbny jest funkcją konta GymProgres, a nie ofertą próbną sklepu. Po jego zakończeniu aktywny plan jest wymagany zgodnie z zasadami dostępu w aplikacji. Zakup, zmiana i przywracanie płatnej subskrypcji odbywają się wyłącznie w aplikacjach mobilnych przez Google Play albo App Store.
+      </div>
+      <p class="small">Ceny mogą nieznacznie różnić się pomiędzy sklepami, walutami i regionami. Wiążąca jest cena pokazana przez Google Play lub App Store w momencie zakupu.</p>
     </div>
   </section>
 
   <section class="section-tight">
     <div class="container banner">
       <div>
-        <h2>Aktualna linia V34 jest obecnie testowana</h2>
-        <p>Prowadzimy zamknięte testy na Androidzie, wersja iOS jest testowana przez TestFlight, a app.gymprogres.pl jest synchronizowana z tym samym aktualnym źródłem Flutter z zachowaniem ograniczeń właściwych dla Web.</p>
+        <h2>GymProgres jest przygotowany do oficjalnej publikacji</h2>
+        <p>Publiczna strona, polityka prywatności, regulamin, usuwanie konta i wersja webowa są przygotowane pod dystrybucję mobilną. Linki do sklepów aktywują się po zakończeniu publikacji listingów.</p>
       </div>
-      <a class="button button-primary" href="https://app.gymprogres.pl" target="_blank" rel="noopener">Uruchom wersję webową</a>
+      <a class="button button-primary" href="https://app.gymprogres.pl" target="_blank" rel="noopener">Otwórz wersję webową</a>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
       <div class="section-head"><h2>Twoje dane pod kontrolą</h2><p>Dostęp do danych aktywności i diety jest dobrowolny. Konto oraz powiązane dane można usunąć bezpośrednio w aplikacji lub przez publiczną ścieżkę kontaktową.</p></div>
-      <div class="actions"><a class="button button-danger" href="usun-konto.html">Jak usunąć konto</a><a class="button button-secondary" href="polityka-prywatnosci.html">Polityka prywatności</a></div>
+      <div class="actions"><a class="button button-danger" href="usun-konto.html">Jak usunąć konto</a><a class="button button-secondary" href="polityka-prywatnosci.html">Polityka prywatności</a><a class="button button-secondary" href="regulamin.html">Regulamin</a></div>
     </div>
   </section>
 </main>
 <footer class="site-footer"><div class="container footer-grid"><div><a class="brand" href="index.html"><img src="assets/logo.svg" alt=""><span>Gym<span>Progres</span></span></a><div class="small">© <span data-year></span> GymProgres. Wszelkie prawa zastrzeżone.</div></div><div class="footer-links"><a href="https://app.gymprogres.pl" target="_blank" rel="noopener">Aplikacja webowa</a><a href="pomoc.html">Pomoc</a><a href="polityka-prywatnosci.html">Prywatność</a><a href="usun-konto.html">Usuń konto</a><a href="regulamin.html">Regulamin</a></div></div></footer>
+<script src="launch-config.js"></script>
 <script src="script.js" defer></script>
 </body>
 </html>
