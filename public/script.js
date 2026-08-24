@@ -53,8 +53,11 @@ if (launchNote && knownStores > 0) {
   if (liveStores === knownStores) {
     launchNote.textContent =
       'GymProgres jest dostępny w Google Play i App Store. Wersja webowa pozostaje dostępna dla istniejących kont.';
-  } else if (liveStores > 0) {
+  } else if (launch.googlePlay?.live === true && launch.appStore?.live !== true) {
     launchNote.textContent =
-      'GymProgres jest już dostępny w jednym ze sklepów. Publikacja drugiej wersji mobilnej jest w toku.';
+      'GymProgres jest dostępny w Google Play. Wersja iOS została już opublikowana w App Store; publiczny link zostanie aktywowany po dodaniu jego adresu.';
+  } else if (launch.appStore?.live === true && launch.googlePlay?.live !== true) {
+    launchNote.textContent =
+      'GymProgres jest dostępny w App Store. Link Google Play zostanie aktywowany po dodaniu jego publicznego adresu.';
   }
 }
