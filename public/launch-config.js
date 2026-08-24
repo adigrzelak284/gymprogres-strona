@@ -1,6 +1,6 @@
 window.GYMPROGRES_LAUNCH = {
   googlePlay: {
-    live: false,
+    live: true,
     url: 'https://play.google.com/store/apps/details?id=pl.gymprogres.app'
   },
   appStore: {
